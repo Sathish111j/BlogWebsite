@@ -7,6 +7,9 @@ DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsI
 # [vars]
 # MY_VARIABLE = "production_value"
 
+# [vars]
+JWT_SECRET="helllo"
+
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
 # id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
