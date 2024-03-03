@@ -1,15 +1,16 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-// import { Signup } from './pages/Signup'
-// import { Signin } from './pages/Signin'
-// import { Blog } from './pages/Blog'
-// import { Blogs } from "./pages/Blogs";
-// import { Publish } from './pages/Publish';
+import { Signup } from './pages/Signup'
+import { Signin } from './pages/Signin'
+import { Blog } from './pages/Blog'
+import { Blogs } from "./pages/Blogs";
+import { Publish } from './pages/Publish';
 
 function App() {
 
   return (
     <>
-{/*       <BrowserRouter>
+      <h1>Hello</h1>
+      <BrowserRouter>
         <Routes>
           <Route path="/signup" element={<Signup />} />
           <Route path="/signin" element={<Signin />} />
@@ -17,8 +18,8 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/publish" element={<Publish />} />
         </Routes>
-      </BrowserRouter> */}
-      <h1>Hello</h1>
+      </BrowserRouter>
+      
     </>
   )
 }
